@@ -1,0 +1,23 @@
+{
+  "_help": [
+    "Fix how rooms look. Save, then press F5 in Legend3D.",
+    "Room entries are keyed by vnum (shown in the Godot output when you enter a room).",
+    "Room keys:",
+    "  size: small | medium | large | huge",
+    "  shape: round | square | long",
+    "  light: 0.1 (dark) to 1.0 (bright)",
+    "  props: a list like [{\"type\": \"hearth\", \"at\": \"on the north wall\"}, {\"type\": \"table\", \"many\": true}]",
+    "  no_auto_props: true to ignore the description and use only your props",
+    "  floor_mode (outdoors): none | strips | full; floor, boundary, boundary_h, int_floor",
+    "Prop types: hearth table stool counter barrel crate shelf bed lantern torch candle tapestry fur",
+    "  cauldron well fountain tree bush stone statue altar chest board mailbox cart stall door",
+    "Textures: stone plaster wood beams dirt grass cobble hedge rock sand water thatch wattle daub",
+    "  drystone timber darktimber earth iron cloth hearthstone",
+    "Area entries (under areas, keyed by area name) override that area's style pack,",
+    "  e.g. {\"Celtic Ireland\": {\"wall_h\": 2.8}} or {\"Some Area\": {\"pack\": \"celtic\"}}."
+  ],
+  "rooms": {
+  },
+  "areas": {
+  }
+}

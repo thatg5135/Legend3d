@@ -1,0 +1,106 @@
+{
+  "_help": [
+    "What Legend3D knows about NPCs and objects. Keyed by the room line.",
+    "Edit 'appearance' to change how someone looks; it overrides 'auto'.",
+    "appearance keys: sex, age, build, skin, hair, hair_color, beard, garment,",
+    "garment_color, legs_color, belt_color, cloak_color, shoes_color, held, accessory, height.",
+    "For objects, 'prop' picks the shape: chest, board, mailbox, barrel, crate, shelf, altar...",
+    "Save, then press F5 in Legend3D to see changes."
+  ],
+  "entries": {
+    "a mailbox sits in the corner here.": {
+      "short": "A mailbox",
+      "keyword": "mailbox",
+      "look": [
+        "",
+        "You see nothing special."
+      ],
+      "kind": "object",
+      "desc": "You see nothing special.",
+      "gear": [],
+      "prop": "mailbox"
+    },
+    "a box sits against the back wall serving as storage for lost and found items.": {
+      "short": "A box",
+      "keyword": "box",
+      "look": [
+        "",
+        "The box looks large enough to keep clutter from littering the room. It would",
+        "also probably keep the items safer from wandering thieves than if they were",
+        "just lying about."
+      ],
+      "kind": "object",
+      "desc": "The box looks large enough to keep clutter from littering the room. It would also probably keep the items safer from wandering thieves than if they were just lying about.",
+      "gear": [],
+      "prop": "chest"
+    },
+    "a directory board holding both news and 'welcome' information stands here.": {
+      "short": "A directory board",
+      "keyword": "board",
+      "look": [
+        "",
+        "These boards share information with the entire mud. The welcome board",
+        "contains information for newbies and announcements from the immortal staff,",
+        "while the news board covers an assortment of player postings."
+      ],
+      "kind": "object",
+      "desc": "These boards share information with the entire mud. The welcome board contains information for newbies and announcements from the immortal staff, while the news board covers an assortment of player postings.",
+      "gear": [],
+      "prop": "board"
+    },
+    "a tired serving maid is here, thinking quiet thoughts at her overworked feet.": {
+      "short": "A tired serving maid",
+      "keyword": "maid",
+      "look": [
+        "",
+        "A warm, but tired smile draws your eyes from her amply displayed bosom.",
+        "Tika is in perfect health.",
+        "Tika is using:",
+        "<worn on body>       a yellow kirtle",
+        "<worn on feet>       a pair of brogs",
+        "<worn about waist>   a deep green girdle",
+        "<clasping hair>      a golden hair ball",
+        "<clasping hair>      a golden hair ball"
+      ],
+      "kind": "creature",
+      "desc": "A warm, but tired smile draws your eyes from her amply displayed bosom.",
+      "gear": [
+        {
+          "slot": "worn on body",
+          "item": "a yellow kirtle"
+        },
+        {
+          "slot": "worn on feet",
+          "item": "a pair of brogs"
+        },
+        {
+          "slot": "worn about waist",
+          "item": "a deep green girdle"
+        },
+        {
+          "slot": "clasping hair",
+          "item": "a golden hair ball"
+        },
+        {
+          "slot": "clasping hair",
+          "item": "a golden hair ball"
+        }
+      ],
+      "name": "Tika",
+      "auto": {
+        "sex": "female",
+        "garment": "dress",
+        "garment_color": "yellow",
+        "belt_color": "deep green",
+        "accessory": "hair gold"
+      },
+      "appearance": {
+        "age": "20s",
+        "hair_color": "red",
+        "hair": "long",
+        "held": "tray with drinks"
+      },
+      "notes": "Bobby: always imagined her as a red-haired woman in her 20s in a dress, carrying a serving tray with drinks."
+    }
+  }
+}
